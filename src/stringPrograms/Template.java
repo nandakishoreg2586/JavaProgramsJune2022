@@ -34,8 +34,18 @@ public class Template {
 			 }	 
 		 }
 				
-		//
+		// Reverse a sentense
 		
+		 for(int i=0;i<s.length();i++) {
+			 char c = s.charAt(i);
+			 if(c!=' ')
+			 w = c + w;
+			 else
+			 {
+				 System.out.println(w);
+			 	 w="";
+			 }	 
+		 }
 		
 		
 		
