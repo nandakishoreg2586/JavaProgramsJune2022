@@ -46,8 +46,26 @@ public class Template {
 			 	 w="";
 			 }	 
 		 }
-		
-		
+		 
+		 System.out.println();
+
+		 //Code from Merge1 branch To identify a Word in a Sentence
+		 for(int i=0;i<s.length();i++)
+		 {
+			 char c = s.charAt(i);
+			 if(c!=' ')
+				 w += c;
+			 else
+			 {
+				 System.out.println(w);
+				 if(w.contains("Nanda"))
+					 System.out.println("Found");
+				 w="";
+			 }
+		 }
+		 
+		 
+		 
 		
 
 	}
