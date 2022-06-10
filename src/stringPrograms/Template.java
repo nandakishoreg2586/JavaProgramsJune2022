@@ -47,7 +47,13 @@ public class Template {
 			 }	 
 		 }
 		
-		
+		//Code from Merge2 branch code for String concatenation
+		String one = "Nanda Kishore G", two = "Wipro and IBM";
+		System.out.println(one.equalsIgnoreCase(two));
+		System.out.println(one.toUpperCase());
+		System.out.println(two.toLowerCase());
+
+
 		
 
 	}
